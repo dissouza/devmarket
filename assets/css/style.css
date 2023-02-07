@@ -3,10 +3,11 @@ body{
 	flex-direction: column;
 	width: 100vw;
 	height: 100vh;
+	font-family: arial;
 }
 
-header{min-height:50px;}
-footer{min-height:50px;}
+header{min-height:60px;}
+footer{min-height:60px;}
 main{flex: 1;}
 
 header{
