@@ -1,0 +1,47 @@
+body{
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	height: 100vh;
+}
+
+header{min-height:50px;}
+footer{min-height:50px;}
+main{flex: 1;}
+
+header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: black;
+	color: white;
+}
+
+#menu{	
+	display: flex;
+	width: 60%;	
+	justify-content: space-between;
+}
+
+
+nav{
+	display: flex;	
+	justify-self: right;
+	align-self: right;
+}
+
+main{
+	display: flex;
+	width: 60%;	
+	margin: 0 auto;	
+	align-self: center;
+	background: lightgray;
+}
+
+footer{
+	display: flex;	
+	justify-content: center;
+	align-items: center;
+	background: black;
+	color: white;
+}
