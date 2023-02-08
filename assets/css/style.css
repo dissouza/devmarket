@@ -35,6 +35,11 @@ nav{
 	align-self: right;
 }
 
+#carrinho{
+	background: src("assets/img/carrinho.png");	
+	padding: 20px;
+}
+
 main{
 	display: flex;
 	width: 60%;	
