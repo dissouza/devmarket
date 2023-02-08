@@ -24,6 +24,10 @@ header{
 	justify-content: space-between;
 }
 
+#logo{
+	width: 25%;
+}
+
 
 nav{
 	display: flex;	
