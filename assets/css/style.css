@@ -20,7 +20,7 @@ header{
 
 #menu{
 	display: flex;
-	width: 60%;	
+	width: 60vw;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -67,14 +67,29 @@ nav > button:hover{
 
 main{
 	display: flex;
-	width: 60%;	
-	margin: 0 auto;	
+	flex-wrap: wrap;
+	width: 60vw;	
+	justify-content: space-evenly;
 	align-self: center;
+	
+}
+
+.produto{	
+	width: 20%;
+	margin-top: 2vw;
+	padding: 2vw;
 	background: lightgray;
 }
 
+.imagem_produto{
+	display: flex;
+	margin: 0 auto;
+	max-width: 80%;
+}
+
 footer{
-	display: flex;	
+	display: flex;
+	margin-top: 5vh;
 	justify-content: center;
 	align-items: center;
 	background: black;
