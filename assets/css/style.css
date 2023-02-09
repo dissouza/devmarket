@@ -18,7 +18,7 @@ header{
 	color: white;
 }
 
-#menu{	
+#menu{
 	display: flex;
 	width: 60%;	
 	justify-content: space-between;
@@ -27,23 +27,29 @@ header{
 
 #logo{
 	width: 30%;
+	margin: 0 auto;
 }
 
 
 nav{
-	display: flex;	
-	
+	display: flex;
+	margin-right: 10px;
+	justify-content: center;
+	align-items: center;
 }
 
-nav > button {
+button {
+	display: flex;
 	background: black;
 	color: white;
+	font-weight: bol;
 	border: none;
 	padding: 0px 5px;
+	cursor: pointer;
 }
 
 nav > button:hover{
-	color: #ccc;
+	color: #33cc00;
 }
 
 #carrinho{
