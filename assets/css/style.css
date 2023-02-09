@@ -1,3 +1,9 @@
+:root{
+	--black: #000000;
+	--green: #33cc00;
+	--white: #ffffff;
+}
+
 body{
 	display: flex;
 	flex-direction: column;
@@ -12,21 +18,28 @@ main{flex: 1;}
 
 header{
 	display: flex;
+	width: 100%;
 	justify-content: center;
 	align-items: center;
 	background: black;
 	color: white;
+	margin: 0 auto;
+	position: fixed;	
 }
+	
+
 
 #menu{
 	display: flex;
 	width: 60vw;
 	justify-content: space-between;
 	align-items: center;
+
 }
 
 #logo{
 	width: 30%;
+	max-height: 100%;
 	margin: 0 auto;
 }
 
@@ -49,7 +62,7 @@ button {
 }
 
 nav > button:hover{
-	color: #33cc00;
+	color: green;
 }
 
 #carrinho{
@@ -69,22 +82,51 @@ main{
 	display: flex;
 	flex-wrap: wrap;
 	width: 60vw;	
+	margin-top:50px;
 	justify-content: space-evenly;
-	align-self: center;
-	
+	align-self: center;	
 }
 
-.produto{	
-	width: 20%;
-	margin-top: 2vw;
+content{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;	
+	justify-content: space-evenly;
+	align-self: center;	
+
+}
+
+.item{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	max-width: 28%;
+	background: #ccc;
+	margin-top: 1vw;
+}
+
+.produto{
+	justify-items: center;
+	align-content: center;
 	padding: 2vw;
-	background: lightgray;
 }
 
 .imagem_produto{
-	display: flex;
-	margin: 0 auto;
-	max-width: 80%;
+	display: flex;	
+	max-width: 100%;
+}
+
+.comprar{
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	padding: 20px;
+	width: 100%;
+}
+
+.comprar:hover{
+	background: green;
+	font-weight: bold;
 }
 
 footer{
@@ -94,4 +136,9 @@ footer{
 	align-items: center;
 	background: black;
 	color: white;
+}
+
+#logomobile{
+	max-height: 100%;	
+	margin: 0 auto;
 }
