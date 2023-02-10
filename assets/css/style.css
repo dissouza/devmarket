@@ -79,13 +79,8 @@ nav > button:hover{
 }
 
 .basket{
-	background: url('assets/img/carrinho.png');
 	margin-left: 0.2vw;
 	width: 25px;
-}
-
-.basket:hover{
-	background: url('assets/img/carrinho2.png');
 }
 
 main{
