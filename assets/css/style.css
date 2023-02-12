@@ -125,7 +125,9 @@ content{
 	max-width: 100%;
 	pointer-events: none;
 }
-
+.quantidade{
+	display: none;
+}
 .comprar{
 	justify-content: center;
 	align-items: center;
