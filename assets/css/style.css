@@ -83,6 +83,48 @@ nav > button:hover{
 	width: 25px;
 }
 
+
+
+@media (max-width: 425px){
+	
+.title{	
+	display: flex;
+	margin-left: 8vw;
+}
+
+main{
+	display: flex;	
+	flex-direction: column;
+	width: 95vw;	
+	margin-top:8vh;
+	justify-content: space-evenly;
+	align-self: center;	
+}
+
+.item{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	max-width: 85vw;
+	background: #ccc;
+	margin: 5vw;
+}
+
+.produto{
+	justify-items: center;
+	align-content: center;
+	padding: 5vw;
+}
+}
+
+
+
+
+
+
+
+@media (min-width: 768px){
+
 main{
 	display: flex;
 	flex-wrap: wrap;
@@ -90,15 +132,6 @@ main{
 	margin-top:8vh;
 	justify-content: space-evenly;
 	align-self: center;	
-}
-
-content{
-	display: flex;
-	flex-wrap: wrap;
-	width: 100%;	
-	justify-content: space-evenly;
-	align-self: center;	
-
 }
 
 .item{
@@ -115,6 +148,19 @@ content{
 	align-content: center;
 	padding: 1.5vw;
 }
+}
+
+#conteudo{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;	
+	justify-content: space-evenly;
+	align-self: center;
+}
+
+
+
+
 
 .product_name{
 	font-weight: bold;
