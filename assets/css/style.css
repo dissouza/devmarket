@@ -43,20 +43,6 @@ a:hover{
 
 }
 
-#logo{
-	width: 30%;
-	max-height: 100%;
-	margin: 0 auto;
-}
-
-
-nav{
-	display: flex;
-	margin-right: 10px;
-	justify-content: center;
-	align-items: center;
-}
-
 button {
 	display: flex;
 	background: black;
@@ -83,22 +69,35 @@ nav > button:hover{
 	width: 25px;
 }
 
-
-
 @media (max-width: 425px){
+
+#logo_mobile{
+	width: 30%;
+	max-height: 100%;	
+}
+
+#logo_desktop{
+	display: none;
+}
+
+nav{
+	display: none;
+	margin-right: 10px;
+	justify-content: center;
+	align-items: center;
+}
 	
 .title{	
-	display: flex;
 	margin-left: 8vw;
 }
 
 main{
 	display: flex;	
 	flex-direction: column;
-	width: 95vw;	
+	width: 100vw;	
+	margin-left: 0vw;
 	margin-top:8vh;
-	justify-content: space-evenly;
-	align-self: center;	
+	
 }
 
 .item{
@@ -115,19 +114,44 @@ main{
 	align-content: center;
 	padding: 5vw;
 }
+
+.imgcarrinho{
+	display: flex;
+	justify-content: right;
+	width: 10vw;
+}
+
+#conteudo{
+	width: 100%;	
+	justify-content: space-evenly;
+	align-self: center;
+}
 }
 
 
 
-
-
-
-
 @media (min-width: 768px){
+#logo_mobile{
+	display: none;
+}
+
+#logo_desktop{
+	width: 30%;
+	max-height: 100%;
+	margin: 0 auto;
+}
+
+nav{
+	display: flex;
+	margin-right: 10px;
+	justify-content: center;
+	align-items: center;
+}
 
 main{
 	display: flex;
 	flex-wrap: wrap;
+
 	width: 60vw;	
 	margin-top:8vh;
 	justify-content: space-evenly;
@@ -148,6 +172,18 @@ main{
 	align-content: center;
 	padding: 1.5vw;
 }
+.imgcarrinho{
+	display: flex;
+	justify-content: right;
+	width: 10vw;
+}
+
+.produto_carrinho{
+	justify-items: center;
+	align-content: center;
+	padding: 1.5vw;
+}
+
 }
 
 #conteudo{
@@ -174,6 +210,7 @@ main{
 .quantidade{
 	display: none;
 }
+
 .comprar{
 	justify-content: center;
 	align-items: center;

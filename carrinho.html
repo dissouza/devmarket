@@ -5,7 +5,6 @@
 <meta name="viewport" content="height=device-height, initial-scale=1.0">
 <link rel="stylesheet" href="assets/css/reset.css">
 <link rel="stylesheet" href="assets/css/style.css">
-<script src="assets/script/script.js"></script>
 <script src="assets/script/carrinho.js"></script>
 <head>
 	<title>Dev Market</title>
@@ -13,7 +12,8 @@
 <body>
 	<header>
 		<section id="menu">
-			<a href="index.html"><img src="assets/img/logo2.png" id="logo"/></a>
+			<a href="index.html"><img src="assets/img/logo2.png" id="logo_desktop"/></a>
+			<a href="index.html"><img src="assets/img/logo_mobile2.png" id="logo_mobile"/></a>
 			<nav>
 				<button><a href="index.html">HOME</a></button>
 				<button>PRODUTOS</button>
@@ -24,10 +24,28 @@
 	</header>
 
 	<main>
-		<h1>Carrinho</h1>
-		<content class="carrinho">
+		<h1 class="title">Carrinho</h1>
+		<content id="conteudo_carrinho">
 			<!-- Items Adicionados ao Carrinho-->
-		</content>
+			<section class="produto_carrinho">
+				<img src="assets/img/ssdm2.jpg" class="imgcarrinho"/>
+				<p class="nome_produto">Item1</p>
+				<p class="valor_produto">R$ 999</p>
+			</section>
+			<hr>
+			<section class="produto_carrinho">
+				<img src="assets/img/ssdm2.jpg" class="imgcarrinho"/>
+				<p class="nome_produto">Item1</p>
+				<p class="valor_produto">R$ 999</p>
+			</section>
+			<hr>
+			<section class="produto_carrinho">
+				<img src="assets/img/ssdm2.jpg" class="imgcarrinho"/>
+				<p class="nome_produto">Item1</p>
+				<p class="valor_produto">R$ 999</p>
+			</section>
+			<hr>
+			</content>
 	</main>
 
 	<footer>
