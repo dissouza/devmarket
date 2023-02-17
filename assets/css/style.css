@@ -134,6 +134,24 @@ main{
 	justify-content: space-evenly;
 	align-self: center;
 }
+
+#backtop{
+	display: none;
+  	position: fixed;
+  	bottom: 5vw;
+	right: 5vw;
+	z-index: 99;
+	background-color: black;
+	color: var(--greeny);
+	padding: 15px;
+	font-weight: bolder;
+	font-size: 20px;
+	}
+
+#backtop:hover {
+  background: var(--greeny);
+  color: black;
+}
 }
 
 
@@ -199,6 +217,16 @@ main{
 	padding: 1.5vw;
 }
 
+#backtop {    /*Botão de Voltar ao topo*/
+	display: none;
+	padding: 20px;
+	margin-top: 5vw;
+	}
+
+#backtop:hover {
+	background: var(--greeny);
+  	color: black;
+	}
 }
 
 #conteudo{
@@ -234,6 +262,7 @@ main{
 	background: var(--greeny);
 	font-weight: bold;	
 }
+
 
 footer{
 	display: flex;
