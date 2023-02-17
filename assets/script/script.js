@@ -11,7 +11,6 @@ const produto = [{
 	img: 'assets/img/processador.jpg',
 	preco:'1200',
 	qtd: 1
-
 },
 {
 	id: 2,
@@ -41,7 +40,7 @@ const produto = [{
 	preco:'200',
 	qtd: 1
 },
-]
+];
 
 let carrinho = [];
 
@@ -90,3 +89,21 @@ window.onload = function() {
 };
 
 
+
+let topo = document.getElementById("backtop");
+
+window.onscroll = function() {scrollFunction()};
+
+
+// Scroll de volta ao topo
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    backtop.style.display = "block";
+  } else {
+    backtop.style.display = "none";
+  }
+}
+
+function voltartopo(){
+  window.scrollTo({top: 0, behavior: 'smooth'});
+}
