@@ -220,7 +220,7 @@ main{
 #backtop {    /*Botão de Voltar ao topo*/
 	display: none;
 	padding: 20px;
-	margin-top: 5vw;
+	margin-top: 5vh;
 	}
 
 #backtop:hover {
