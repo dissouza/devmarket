@@ -5,13 +5,13 @@
 body{
 	display: flex;
 	flex-direction: column;
-	width: 100vw;
+	max-width: 100vw;
 	height: 100vh;
 	font-family: arial;
 }
 
-header{height:55px;}
-footer{height:55px;}
+header{width: 100vw; height:55px;}
+footer{width: 100vw;height:55px;}
 main{flex: 1;}
 
 header{
@@ -71,24 +71,32 @@ nav > button:hover{
 
 @media (max-width: 425px){
 
-#logo_mobile{
-	width: 30%;
-	max-height: 100%;	
+header{
+	display: flex;
+	justify-content: space-between;
+	width: 100vw;
 }
-
+#menu{
+	width: 100vw;
+	display: flex;
+}
 #logo_desktop{
-	display: none;
+	display: flex;
+	width: 40%;
+	max-height: 100%;
+	margin-left: 5vw;
 }
 
 nav{
-	display: none;
-	margin-right: 10px;
-	justify-content: center;
-	align-items: center;
+	margin-right: 4vw;
 }
 	
 .title{	
+	display: block;
 	margin-left: 8vw;
+	background: black;
+	color: var(--greeny);
+	padding: 10px;
 }
 
 main{
@@ -158,6 +166,13 @@ main{
 	align-self: center;	
 }
 
+.title{
+	display: block;	
+	background: black;
+	color: var(--greeny);
+	padding: 10px;
+}
+
 .item{
 	display: flex;
 	flex-wrap: wrap;
@@ -193,10 +208,6 @@ main{
 	justify-content: space-evenly;
 	align-self: center;
 }
-
-
-
-
 
 .product_name{
 	font-weight: bold;
