@@ -47,12 +47,10 @@ hr{
 	display: flex;
 	justify-items: center;
 	align-self: center;
-	max-width: 12%;
-
 	background: black;
 	font-weight: bold;
 	color: white;	
-	padding: 5%;
+	padding: 2%;
 }
 
 #delete:hover{
@@ -68,13 +66,11 @@ hr{
 	flex-direction: column;
 	margin-top: 10px;
 	margin: 0 auto;
-	width: 20%;
 	background: var(--greeny);
-	padding: 4vw;
+	padding: 15px;	
 }
 
 #total > p, h3{
-	font-size: 2vw;
 	margin: 0;
 	font-style: italic;
 }
