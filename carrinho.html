@@ -5,6 +5,8 @@
 <meta name="viewport" content="height=device-height, initial-scale=1.0">
 <link rel="stylesheet" href="assets/css/reset.css">
 <link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/carrinho.css">
+<script src="assets/script/script.js"></script>
 <script src="assets/script/carrinho.js"></script>
 <head>
 	<title>Dev Market</title>
@@ -12,42 +14,91 @@
 <body>
 	<header>
 		<section id="menu">
-			<a href="index.html"><img src="assets/img/logo2.png" id="logo_desktop"/></a>
-			<a href="index.html"><img src="assets/img/logo_mobile2.png" id="logo_mobile"/></a>
-			<nav>
-				<button><a href="index.html">HOME</a></button>
-				<button>PRODUTOS</button>
-				<button>CONTATO</button>
-				<button class="carrinho"><p id="qtde"></p><a href="carrinho.html"><img onmouseover="img1()" onmouseout="img2()" src="assets/img/carrinho.png" class="basket"/></a></button>
+			<a href="index.html"><img src="assets/img/logo2.png" id="logo_desktop"/></a>			
+			<nav>				
+				<button class="carrinho"><p id="qtde"></p><a href="carrinho.html"><img src="assets/img/carrinho.png" class="basket"/></a></button>
 			</nav>
 		</section>
 	</header>
 
-	<main>
-		<h1 class="title">Carrinho</h1>
+	<main id="produtos_carrinho">
+		<h1 class="title">&#60Carrinho/&#62</h1>
 		<content id="conteudo_carrinho">
 			<!-- Items Adicionados ao Carrinho-->
 			<section class="produto_carrinho">
 				<img src="assets/img/ssdm2.jpg" class="imgcarrinho"/>
 				<p class="nome_produto">Item1</p>
+				<input type="number" name="quantidade_carrinho" class="qtde_carrinho" min="1" max="50" value="1" maxlength="2">
 				<p class="valor_produto">R$ 999</p>
+				<button id="delete">X</button>
 			</section>
 			<hr>
 			<section class="produto_carrinho">
-				<img src="assets/img/ssdm2.jpg" class="imgcarrinho"/>
+				<img src="assets/img/hd.jpg" class="imgcarrinho"/>
 				<p class="nome_produto">Item1</p>
+				<input type="number" name="quantidade_carrinho" class="qtde_carrinho" min="1" max="50" value="1" maxlength="2">
 				<p class="valor_produto">R$ 999</p>
+				<button id="delete">X</button>
 			</section>
 			<hr>
 			<section class="produto_carrinho">
-				<img src="assets/img/ssdm2.jpg" class="imgcarrinho"/>
+				<img src="assets/img/memoria.jpg" class="imgcarrinho"/>
 				<p class="nome_produto">Item1</p>
+				<input type="number" name="quantidade_carrinho" class="qtde_carrinho" min="1" max="50" value="1" maxlength="2">
 				<p class="valor_produto">R$ 999</p>
+				<button id="delete">X</button>
 			</section>
 			<hr>
-			</content>
-	</main>
+			<section class="produto_carrinho">
+				<img src="assets/img/memoria.jpg" class="imgcarrinho"/>
+				<p class="nome_produto">Item1</p>
+				<input type="number" name="quantidade_carrinho" class="qtde_carrinho" min="1" max="50" value="1" maxlength="2">
+				<p class="valor_produto">R$ 999</p>
+				<button id="delete">X</button>
+			</section>
+			<hr>
+			<section class="produto_carrinho">
+				<img src="assets/img/memoria.jpg" class="imgcarrinho"/>
+				<p class="nome_produto">Item1</p>
+				<input type="number" name="quantidade_carrinho" class="qtde_carrinho" min="1" max="50" value="1" maxlength="2">
+				<p class="valor_produto">R$ 999</p>
+				<button id="delete">X</button>
+			</section>
+			<hr>
+			<section class="produto_carrinho">
+				<img src="assets/img/memoria.jpg" class="imgcarrinho"/>
+				<p class="nome_produto">Item1</p>
+				<input type="number" name="quantidade_carrinho" class="qtde_carrinho" min="1" max="50" value="1" maxlength="2">
+				<p class="valor_produto">R$ 999</p>
+				<button id="delete">X</button>
+			</section>
+			<hr>
+			<section class="produto_carrinho">
+				<img src="assets/img/memoria.jpg" class="imgcarrinho"/>
+				<p class="nome_produto">Item1</p>
+				<input type="number" name="quantidade_carrinho" class="qtde_carrinho" min="1" max="50" value="1" maxlength="2">
+				<p class="valor_produto">R$ 999</p>
+				<button id="delete">X</button>
+			</section>
+			<hr>
+			<section class="produto_carrinho">
+				<img src="assets/img/memoria.jpg" class="imgcarrinho"/>
+				<p class="nome_produto">Item1</p>
+				<input type="number" name="quantidade_carrinho" class="qtde_carrinho" min="1" max="50" value="1" maxlength="2">
+				<p class="valor_produto">R$ 999</p>
+				<button id="delete">X</button>
+			</section>
+			<hr>
 
+			</content>
+
+			<label id="total">
+				<h3>valor.total()</h3>
+				<p>R$ 999</p>
+			</label>
+			
+	</main>
+	<button id="backtop" onclick="voltartopo()">^</button>
 	<footer>
 		<img src="assets/img/logo_mobile2.png" id="logomobile"/>
 	</footer>
