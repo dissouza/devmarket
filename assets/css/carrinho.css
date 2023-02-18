@@ -2,18 +2,6 @@
 	--greeny: rgb(51, 204, 0);
 }
 
-body{
-	display: flex;
-	flex-direction: column;
-	max-width: 100vw;
-	height: 100vh;
-	font-family: arial;
-}
-
-header{width: 100vw; height:55px;}
-footer{width: 100vw;height:55px;}
-main{flex: 1;}
-
 @media (min-width: 768px){
 
 #produtos_carrinho{
@@ -49,11 +37,6 @@ hr{
 
 .nome_produto{
 	width: 42%;
-}
-
-.qtde_carrinho{
-	width: 5%;
-	margin-right: 2%;
 }
 
 .valor_produto{
@@ -138,7 +121,7 @@ hr{
 	width: 42%;
 }
 
-.qtde_carrinho{
+#qtde_carrinho{
 	width: 5%;
 	margin-right: 2%;
 }
