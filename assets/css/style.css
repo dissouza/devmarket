@@ -155,7 +155,6 @@ main{
 }
 
 
-
 @media (min-width: 768px){
 #logo_mobile{
 	display: none;
@@ -177,7 +176,6 @@ nav{
 main{
 	display: flex;
 	flex-wrap: wrap;
-
 	width: 60vw;	
 	margin-top:8vh;
 	justify-content: space-evenly;
