@@ -14,6 +14,9 @@ if (basket) {
 
     if (!itemExists) {
         basket.push(selectedItem);
+        // Criar itens do carrinho aqui
+        // Pegar itens existentes e imprimir itens na página produtos
+        // Caso inexistentes, exibir "Não existem itens no carrinho"
     }
 } else {
     basket = [selectedItem];
