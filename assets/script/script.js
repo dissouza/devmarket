@@ -1,40 +1,34 @@
 const produto = [{
-	id: 0,
 	name: 'Placa Mãe Asus',
 	img: 'assets/img/placamae.jpg',
 	preco:'350',
 	qtd: 1
 },
 {
-	id: 1,
 	name: 'Processador i9',
 	img: 'assets/img/processador.jpg',
 	preco:'1200',
 	qtd: 1
 },
 {
-	id: 2,
 	name: 'Memória RAM 4Gb',
 	img: 'assets/img/memoria.jpg',
 	preco:'250',
 	qtd: 1
 },
 {
-	id: 3,
 	name: 'SSD M2 240Gb',
 	img: 'assets/img/ssdm2.jpg',
 	preco:'520',
 	qtd: 1
 },
 {
-	id: 4,
 	name: 'HD SATA 1TB',
 	img: 'assets/img/hd.jpg',
 	preco:'250',
 	qtd: 1
 },
 {
-	id: 5,
 	name: 'Gabinete Gamer RGB',
 	img: 'assets/img/gabinete.jpg',
 	preco:'200',
@@ -42,18 +36,7 @@ const produto = [{
 },
 ];
 
-let carrinho = [];
-
-function adicionarCarrinho(id) {
-  for (const val of produto) {
-    if (val.id === id) {
-      carrinho.push(val);
-      break;
-    }
-  }
-}
-
-const iniciaLoja = () => {
+function iniciaLoja() {
   const conteudo = document.getElementById('conteudo');
 
   for (const val of produto) {
@@ -75,29 +58,32 @@ const iniciaLoja = () => {
     let botaoComprar = document.createElement("button");
     botaoComprar.classList.add("comprar");
     botaoComprar.textContent = "COMPRAR";
-    botaoComprar.onclick = () => adicionarCarrinho(val.id);
+    botaoComprar.onclick = function() {
+      adicionarCarrinho(val);
+    };
 
     conteudo.appendChild(item);
     item.appendChild(botaoComprar);
   }
 };
 
-console.log(carrinho);
 
-window.onload = function() {
+function adicionarCarrinho(produto) {
+  let carrinho = JSON.parse(localStorage.getItem('carrinho')) || [];
+  carrinho.push(produto);
+
+  localStorage.setItem('carrinho', JSON.stringify(carrinho));
+}
+
+
+window.onload = function(){
   iniciaLoja();
 };
-
 
 
 let topo = document.getElementById("backtop");
 
 window.onscroll = function() {scrollFunction()};
-
-
-
-
-
 
 
 // Scroll de volta ao topo
