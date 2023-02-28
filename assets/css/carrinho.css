@@ -114,6 +114,13 @@ hr{
 	width: 100vw;
 }
 
+.empty{
+	display: flex;
+	justify-content: center;	
+	padding: 40px;
+	background: yellow;	
+}
+
 hr{
 	width: 80%;
 }
