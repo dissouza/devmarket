@@ -59,7 +59,7 @@ hr{
 	font-weight: bold;
 }
 
-#total{
+.total{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -70,7 +70,7 @@ hr{
 	padding: 15px;	
 }
 
-#total > p, h3{
+.total > p, h3{
 	margin: 0;
 	font-style: italic;
 }
@@ -143,7 +143,7 @@ hr{
 	font-weight: bold;
 }
 
-#total{
+.total{
 	display: flex;
 	justify-content: center;
 	align-items: center;
