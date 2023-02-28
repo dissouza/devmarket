@@ -1,7 +1,22 @@
-let carrinho = JSON.parse(localStorage.getItem('carrinho')) || [];
+let carrinho = JSON.parse(sessionStorage.getItem('carrinho')) || [];
 
 
 function exibeCarrinho() {
+
+    let carrinho = JSON.parse(sessionStorage.getItem('carrinho')) || [];
+
+    if(carrinho.length === 0){
+        const conteudo = document.getElementById('conteudo_carrinho');
+        const mensagem = document.createElement('h3');
+        mensagem.classList.add('empty');
+        
+        mensagem.textContent = 'Não há produtos no carrinho.';
+
+        conteudo.appendChild(mensagem);
+    } 
+
+    else {
+
       const conteudo = document.getElementById('conteudo_carrinho');
       conteudo.innerHTML = ''; // Clear the cart content before generating the new list
 
@@ -14,19 +29,22 @@ function exibeCarrinho() {
           <p class="nome_produto">${produto.name}</p>
           <input type="number" name="quantidade_carrinho" id="qtde_carrinho" min="1" max="50" value="${produto.qtd}">
           <p class="valor_produto">R$ ${produto.preco}</p>
-          <button id="delete">X</button>                               
+          <button id="delete" onclick="removerItem()">X</button>                               
         `;
 
         const pulaLinha = document.createElement('hr');
 
         conteudo.appendChild(product);
-        conteudo.appendChild(pulaLinha);
-    }) }
+        conteudo.appendChild(pulaLinha);        
+
+        })}
+
+      }
     // Fim exibe carrinho
 
     function soma_total(){
 
-        let carrinho = JSON.parse(localStorage.getItem('carrinho')) || [];
+        let carrinho = JSON.parse(sessionStorage.getItem('carrinho')) || [];
         let totalValue = 0;
 
         for (const item of carrinho) {

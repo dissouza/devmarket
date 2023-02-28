@@ -69,11 +69,13 @@ function iniciaLoja() {
 
 
 function adicionarCarrinho(produto) {
-  let carrinho = JSON.parse(localStorage.getItem('carrinho')) || [];
+  let carrinho = JSON.parse(sessionStorage.getItem('carrinho')) || [];
   carrinho.push(produto);
 
-  localStorage.setItem('carrinho', JSON.stringify(carrinho));
+  sessionStorage.setItem('carrinho', JSON.stringify(carrinho));
 }
+
+
 
 
 window.onload = function(){
