@@ -1,7 +1,7 @@
 
 ![logo2](https://user-images.githubusercontent.com/104237978/222282022-69189aaf-124f-4080-8361-c4a3264a5f3a.png)
 
-Mini Ecommerce para Devs
+# *Mini Ecommerce para Devs*
 
 ## Linguagens e Ferramentas utilizadas no Projeto:
 
