@@ -37,6 +37,33 @@ const produto = [{
 ];
 
 function iniciaLoja() {
+
+	let carrinho = JSON.parse(sessionStorage.getItem('carrinho')) || [];
+	
+	if(carrinho.length === 0){
+
+		let btn_carrinho = document.getElementById('carrinho_btn');
+		let anchor = document.createElement('a');
+		
+		anchor.href = "carrinho.html";
+		anchor.innerHTML = "<img src='assets/img/carrinho.png' class='basket'/>"
+
+		btn_carrinho.appendChild(anchor)
+
+	} 
+
+	else {
+
+		let btn_carrinho = document.getElementById('carrinho_btn');
+		let anchor = document.createElement('a');
+		
+		anchor.href = "carrinho.html";
+		anchor.innerHTML = "<img src='assets/img/carrinho2.png' class='basket'/>"
+
+		btn_carrinho.appendChild(anchor)
+
+	}
+
   const conteudo = document.getElementById('conteudo');
 
   for (const val of produto) {
@@ -73,6 +100,7 @@ function adicionarCarrinho(produto) {
   carrinho.push(produto);
 
   sessionStorage.setItem('carrinho', JSON.stringify(carrinho));
+  window.location.reload();
 }
 
 
