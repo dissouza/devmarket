@@ -34,7 +34,7 @@ O Objetivo deste projeto foi se aprofundar e aprimorar os conhecimentos em HTML,
 
 # Layout Desktop:
 
-### Página de Produtos(Home)
+### Página de Produtos (Home)
 ![destkop_devmarket](https://user-images.githubusercontent.com/104237978/222281254-5a80713b-8f44-42b0-8bda-9a9c4c4620e5.jpg)
 
 
