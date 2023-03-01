@@ -22,7 +22,7 @@ O Objetivo deste projeto foi se aprofundar e aprimorar os conhecimentos em HTML,
 
 ***Os valores dos produtos no site são apenas para fim de exibição, não são totalmente condizentes com os valores de produtos semelhantes na realidade***
 
-> Uso do sessionStorage
+##### Uso do sessionStorage
 
 Neste projeto optei pelo uso do sessionStorage, como é um site pequeno, achei o metodo melhor para guardar as informações, pois assim que usuário fechar a página, os dados não continuam salvos, não há a necessidade de mantê-los salvos para uma visita posterior (neste caso)
 
