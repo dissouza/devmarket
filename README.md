@@ -1,7 +1,8 @@
+<img src="https://user-images.githubusercontent.com/104237978/222282022-69189aaf-124f-4080-8361-c4a3264a5f3a.png" width="400">
 
-![logo2](https://user-images.githubusercontent.com/104237978/222282022-69189aaf-124f-4080-8361-c4a3264a5f3a.png)
+##### *Mini Ecommerce para Devs*
 
-# *Mini Ecommerce para Devs*
+<br>
 
 # Linguagens e Ferramentas utilizadas no Projeto:
 
@@ -20,11 +21,9 @@ O Objetivo deste projeto foi se aprofundar e aprimorar os conhecimentos em HTML,
 - Usado o Illustrator para criação/modificação das imagens, a partir de vetor e posteriormente convertidas em png
 - Uso de conceitos de Design para todo o site, como cores, e caracteres remetentes ao mundo/ramo de desenvolvimento
 
-***Os valores dos produtos no site são apenas para fim de exibição, não são totalmente condizentes com os valores de produtos semelhantes na realidade***
+`*Os valores dos produtos no site são apenas para fim de exibição, não são totalmente condizentes com os valores de produtos semelhantes aos reais*`
 
-## *sessionStorage*
-
-Neste projeto optei pelo uso do sessionStorage, como é um site pequeno, achei o metodo melhor para guardar as informações, pois assim que usuário fechar a página, os dados não continuam salvos, não há a necessidade de mantê-los salvos para uma visita posterior (neste caso)
+> ***sessionStorage*** - Neste projeto optei pelo uso do sessionStorage, como é um site pequeno, achei o metodo melhor para guardar as informações, pois assim que usuário fechar a página, os dados não continuam salvos, não há a necessidade de mantê-los salvos para uma visita posterior (neste caso)
 
 # Design & UI/UX
 
@@ -42,12 +41,10 @@ Neste projeto optei pelo uso do sessionStorage, como é um site pequeno, achei o
 ### Página do Carrinho
 ![destkop_devmarket_carrinho](https://user-images.githubusercontent.com/104237978/222281281-9b3be235-23ee-4265-8335-bc6654578724.jpg)
 
-# Layout Mobile:
+## Layout Mobile:
 
-### Produtos
+##### Produtos
+<img src="https://user-images.githubusercontent.com/104237978/222288830-e365afd3-a9aa-4032-9433-d543b7b5acf5.jpg" width="200">
 
-
-### Carrinho
-
-
-[Voltar ao Topo](https://github.com/dissouza/devmarket#inicio)
+##### Carrinho
+<img src="https://user-images.githubusercontent.com/104237978/222288910-73c94e9e-4f9e-4c80-afc3-115b6b5dcbe3.jpg" width="200">
