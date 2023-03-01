@@ -20,7 +20,7 @@ O Objetivo deste projeto foi se aprofundar e aprimorar os conhecimentos em HTML,
 - Usado o Illustrator para criação/modificação das imagens, a partir de vetor e posteriormente convertidas em png
 - Uso de conceitos de Design para todo o site, como cores, e caracteres remetentes ao mundo/ramo de desenvolvimento
 
-<sub>*Os valores dos produtos no site são apenas para fim de exibição, não são totalmente condizentes com os valores de produtos semelhantes na realidade*</sub>
+**Os valores dos produtos no site são apenas para fim de exibição, não são totalmente condizentes com os valores de produtos semelhantes na realidade**
 
 ## Uso do sessionStorage
 
