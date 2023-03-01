@@ -110,8 +110,10 @@ hr{
 
 .produto_carrinho{
 	display: flex;
-	align-items: center;
-	width: 100vw;
+	justify-content: space-between;
+	align-self: center;
+	width: 92vw;
+	margin-bottom: 15px;
 }
 
 .empty{
@@ -125,28 +127,31 @@ hr{
 	width: 80%;
 }
 
+.nome_produto, #qtde_carrinho, .valor_produto, #delete{
+	align-self: center;
+}
+
 .imgproduto{
 	width: 15%;
-	margin: 0 3%;
+	margin-right: 3%;
 }
 
 .nome_produto{
-	width: 42%;
+	width: 42%;	
 }
 
 #qtde_carrinho{
 	width: 5%;
-	margin-right: 2%;
+	margin-right: 2%;	
 }
 
 .valor_produto{
-	width: 14%;	
+	width: 14%;
 }
 
 #delete{
 	display: flex;
-	justify-items: center;
-	align-self: center;
+	justify-items: right;
 	max-width: 12%;
 	background: black;
 	font-weight: bold;
