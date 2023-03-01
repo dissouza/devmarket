@@ -132,7 +132,8 @@ hr{
 }
 
 .imgproduto{
-	width: 15%;
+	display: flex;
+	max-width: 15vw;
 	margin-right: 3%;
 }
 

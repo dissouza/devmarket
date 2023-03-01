@@ -66,13 +66,15 @@ function exibeCarrinho() {
                     main.appendChild(soma);
     }
 
+
+    // Remover item do carrinho, utilizando seu proprio index do array
     function removerItem(index) {
       carrinho.splice(index, 1);
       sessionStorage.setItem('carrinho', JSON.stringify(carrinho));
 
       window.location.reload() // Recarregar a pagina após a exclusão
-      exibeCarrinho();
-      soma_total();
+      exibeCarrinho(); // Chama função de mostrar itens do carrinho novamente
+      soma_total(); // Soma todos os itens novamente
     }
 
     console.log(carrinho);
