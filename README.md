@@ -30,6 +30,6 @@ O Objetivo deste projeto foi se aprofundar e aprimorar os conhecimentos em HTML,
 
 Neste projeto optei pelo uso do sessionStorage, como é um site pequeno, achei o metodo melhor para guardar as informações, pois assim que usuário fechar a página, os dados não continuam salvos, não há a necessidade de mantê-los salvos para uma visita posterior (neste caso)
 
-#Layout Desktop:
+# Layout Desktop:
 
 
