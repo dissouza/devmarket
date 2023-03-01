@@ -33,8 +33,10 @@ Neste projeto optei pelo uso do sessionStorage, como é um site pequeno, achei o
 
 # Layout Desktop:
 
+### Página de Produtos(Home)
 ![destkop_devmarket](https://user-images.githubusercontent.com/104237978/222281254-5a80713b-8f44-42b0-8bda-9a9c4c4620e5.jpg)
 
+### Página do Carrinho
 ![destkop_devmarket_carrinho](https://user-images.githubusercontent.com/104237978/222281281-9b3be235-23ee-4265-8335-bc6654578724.jpg)
 
 
