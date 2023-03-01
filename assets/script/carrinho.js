@@ -1,4 +1,4 @@
-let carrinho = JSON.parse(sessionStorage.getItem('carrinho')) || [];
+let carrinho = JSON.parse(sessionStorage.getItem('carrinho')) || []; // Uso do sessionStorage para armazenar os produtos apenas enquanto o usuário estiver na sessão, após fechar a página, o storage é limpo //
 
 
 function exibeCarrinho() {
@@ -20,7 +20,7 @@ function exibeCarrinho() {
       const conteudo = document.getElementById('conteudo_carrinho');
       conteudo.innerHTML = ''; // Clear the cart content before generating the new list
 
-      carrinho.forEach((produto) => {
+      carrinho.forEach((produto, index) => {
         
         const product = document.createElement('section');
         product.classList.add('produto_carrinho');
@@ -29,7 +29,7 @@ function exibeCarrinho() {
           <p class="nome_produto">${produto.name}</p>
           <input type="number" name="quantidade_carrinho" id="qtde_carrinho" min="1" max="50" value="${produto.qtd}">
           <p class="valor_produto">R$ ${produto.preco}</p>
-          <button id="delete" onclick="removerItem()">X</button>                               
+          <button id="delete" onclick="removerItem(${index})">X</button>                               
         `;
 
         const pulaLinha = document.createElement('hr');
@@ -41,6 +41,9 @@ function exibeCarrinho() {
 
       }
     // Fim exibe carrinho
+
+
+    // Função somar o valor total dos itens
 
     function soma_total(){
 
@@ -61,11 +64,20 @@ function exibeCarrinho() {
                     <p>R$ ${totalValue.toFixed(2)}</p>`;
 
                     main.appendChild(soma);
-                    }
+    }
+
+    function removerItem(index) {
+      carrinho.splice(index, 1);
+      sessionStorage.setItem('carrinho', JSON.stringify(carrinho));
+
+      window.location.reload() // Recarregar a pagina após a exclusão
+      exibeCarrinho();
+      soma_total();
+    }
 
     console.log(carrinho);
 
-
+    ////////////
 
     let topo = document.getElementById("backtop");
 
