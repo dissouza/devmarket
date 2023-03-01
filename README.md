@@ -14,7 +14,11 @@ O Objetivo deste projeto foi se aprofundar e aprimorar os conhecimentos em HTML,
 - Foi criada uma estrutura simples no HTML, para o menu e bloco de conteúdo
 - Usado o Javascript para manipulação de DOM, e inclusão dos produtos a partir de arrays, nas quais constam os produtos
 - Criado um visual moderno e responsivo com o CSS
-- Uso do Photoshop para modificação da imagem de fundo
+- Uso do Photoshop para modificação da imagens
+- Usado o Illustrator para criação/modificação das imagens, a partir de vetor e posteriormente convertidas em png
+- Uso de conceitos de Design para todo o site, como cores, e caracteres remetentes ao mundo/ramo de desenvolvimento
+
+##### Os valores dos produtos no site são apenas para fim de exibição, não são totalmente condizentes com os valores de produtos semelhantes na realidade*
 
 ## Uso do sessionStorage
 
