@@ -1,2 +1,2 @@
-# devmarket
-Mini Ecommerce de Devs
+# DevMarket
+Mini Ecommerce para Devs
