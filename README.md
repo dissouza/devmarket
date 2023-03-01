@@ -20,7 +20,7 @@ O Objetivo deste projeto foi se aprofundar e aprimorar os conhecimentos em HTML,
 
 ##### Os valores dos produtos no site são apenas para fim de exibição, não são totalmente condizentes com os valores de produtos semelhantes na realidade*
 
-#Design & UI/UX
+# Design & UI/UX
 
 - Utilizado a cor verde (#33cc00) a fim de remeter a "código", quando pensamos em programação, os ramos são vastos, mas sempre que pensamos em código em sua maioria me vem em nossa mente esta cor, automaticamente nos remetemos a imagens de numeros binários, também é uma cor que remete a "tecnologia"
 - O branco e o preto foi utilizado como cores complementares, onde o verde se contrasta
