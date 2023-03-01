@@ -22,13 +22,13 @@ O Objetivo deste projeto foi se aprofundar e aprimorar os conhecimentos em HTML,
 
 ***Os valores dos produtos no site são apenas para fim de exibição, não são totalmente condizentes com os valores de produtos semelhantes na realidade***
 
-##### Uso do sessionStorage
+## *sessionStorage*
 
 Neste projeto optei pelo uso do sessionStorage, como é um site pequeno, achei o metodo melhor para guardar as informações, pois assim que usuário fechar a página, os dados não continuam salvos, não há a necessidade de mantê-los salvos para uma visita posterior (neste caso)
 
 # Design & UI/UX
 
-- Utilizado a cor verde (#33cc00) a fim de remeter a "código", quando pensamos em programação, os ramos são vastos, mas sempre que pensamos em código em sua maioria me vem em nossa mente esta cor, automaticamente nos remetemos a imagens de numeros binários, também é uma cor que remete a "tecnologia"
+- Utilizado a cor verde `#33cc00` a fim de remeter a "código", quando pensamos em programação, os ramos são vastos, mas sempre que pensamos em código em sua maioria me vem em nossa mente esta cor, automaticamente nos remetemos a imagens de numeros binários, também é uma cor que remete a "tecnologia"
 - O branco e o preto foi utilizado como cores complementares, onde o verde se contrasta
 - O uso dos caracteres < /> antes e depois das palavras Produtos, e Carrinho, foi utilizado para dar a ideia de que fossem como tags, blocos, sessões, onde seus elementos "produtos" ou "itens do carrinho" fossem inseridos dentro dos mesmos
 - Incluido duas imagens para estados diferentes do carrinho, uma verde com o "!" na frente, caso haja itens no carrinho, e um em branco caso o carrinho esteja vazio
@@ -48,3 +48,6 @@ Neste projeto optei pelo uso do sessionStorage, como é um site pequeno, achei o
 
 
 ### Carrinho
+
+
+[Voltar ao Topo](https://github.com/dissouza/devmarket#inicio)
