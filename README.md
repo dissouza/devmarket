@@ -14,7 +14,7 @@ O Objetivo deste projeto foi se aprofundar e aprimorar os conhecimentos em HTML,
 - Foi criada uma estrutura simples no HTML, para o menu e bloco de conteúdo
 - Usado o Javascript para manipulação de DOM, e inclusão dos produtos a partir de arrays, nas quais constam os produtos
 - Criado um visual moderno e responsivo com o CSS, utilizando majoritariamente do Flexbox
-- Uso do Photoshop para modificação/melhoria da imagens de forma sutil
+- Uso do Photoshop para modificação/melhoria da imagens de forma sutil, e 
 - Usado o Illustrator para criação/modificação das imagens, a partir de vetor e posteriormente convertidas em png
 - Uso de conceitos de Design para todo o site, como cores, e caracteres remetentes ao mundo/ramo de desenvolvimento
 
@@ -36,8 +36,13 @@ Neste projeto optei pelo uso do sessionStorage, como é um site pequeno, achei o
 ### Página de Produtos(Home)
 ![destkop_devmarket](https://user-images.githubusercontent.com/104237978/222281254-5a80713b-8f44-42b0-8bda-9a9c4c4620e5.jpg)
 
+
 ### Página do Carrinho
 ![destkop_devmarket_carrinho](https://user-images.githubusercontent.com/104237978/222281281-9b3be235-23ee-4265-8335-bc6654578724.jpg)
 
+# Layout Mobile:
+
+### Produtos
 
 
+### Carrinho
