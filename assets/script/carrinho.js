@@ -13,12 +13,38 @@ function exibeCarrinho() {
         mensagem.textContent = 'Não há produtos no carrinho.';
 
         conteudo.appendChild(mensagem);
+
+        // Alterar imagem botão Carrinho
+        let btn_carrinho = document.getElementById('carrinho_btn');
+        let anchor = document.createElement('a');
+        
+        anchor.href = "carrinho.html";
+        anchor.innerHTML = "<img src='assets/img/carrinho.png' class='basket'/>"
+
+        btn_carrinho.appendChild(anchor)
+        //
+
     } 
 
     else {
 
+
+        // Alterar imagem botão Carrinho
+        let btn_carrinho = document.getElementById('carrinho_btn');
+        let anchor = document.createElement('a');
+        
+        anchor.href = "carrinho.html";
+        anchor.innerHTML = "<img src='assets/img/carrinho2.png' class='basket'/>"
+
+        btn_carrinho.appendChild(anchor)
+        //
+
+
+
       const conteudo = document.getElementById('conteudo_carrinho');
       conteudo.innerHTML = ''; // Clear the cart content before generating the new list
+
+
 
       carrinho.forEach((produto, index) => {
         
@@ -72,7 +98,7 @@ function exibeCarrinho() {
       carrinho.splice(index, 1);
       sessionStorage.setItem('carrinho', JSON.stringify(carrinho));
 
-      window.location.reload() // Recarregar a pagina após a exclusão
+      window.location.reload(); // Recarregar a pagina após a exclusão
       exibeCarrinho(); // Chama função de mostrar itens do carrinho novamente
       soma_total(); // Soma todos os itens novamente
     }
