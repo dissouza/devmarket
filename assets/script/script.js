@@ -1,3 +1,4 @@
+// Array com os produtos
 const produto = [{
 	name: 'Placa Mãe Asus',
 	img: 'assets/img/placamae.jpg',
@@ -35,6 +36,8 @@ const produto = [{
 	qtd: 1
 },
 ];
+
+//
 
 function iniciaLoja() {
 
@@ -102,8 +105,6 @@ function adicionarCarrinho(produto) {
   sessionStorage.setItem('carrinho', JSON.stringify(carrinho));
   window.location.reload();
 }
-
-
 
 
 window.onload = function(){

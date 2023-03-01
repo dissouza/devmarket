@@ -23,11 +23,9 @@ function exibeCarrinho() {
 
         btn_carrinho.appendChild(anchor)
         //
-
     } 
 
     else {
-
 
         // Alterar imagem botão Carrinho
         let btn_carrinho = document.getElementById('carrinho_btn');
@@ -39,12 +37,8 @@ function exibeCarrinho() {
         btn_carrinho.appendChild(anchor)
         //
 
-
-
       const conteudo = document.getElementById('conteudo_carrinho');
-      conteudo.innerHTML = ''; // Clear the cart content before generating the new list
-
-
+      conteudo.innerHTML = ''; // Limpa o Conteudo antes de gerar uma nova lista
 
       carrinho.forEach((produto, index) => {
         
@@ -64,7 +58,6 @@ function exibeCarrinho() {
         conteudo.appendChild(pulaLinha);        
 
         })}
-
       }
     // Fim exibe carrinho
 
